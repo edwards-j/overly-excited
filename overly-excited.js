@@ -8,7 +8,25 @@ let sentence = ["The","walrus","danced","through","the","trees","in","the","ligh
 */
 
 
-function addExcitement(theWordArray, mark) {
+// function addExcitement(theWordArray, mark) {
+
+//     // Each time the for loop executes, you're going to add one more word to this string
+//     let buildMeUp = ""
+
+//     for (let i = 0; i < theWordArray.length; i++) {
+//         // Concatenate the new word onto buildMeUp
+//         buildMeUp = `${buildMeUp} ${theWordArray[i]}`;
+
+//         if (i % 3 === 2) {
+//             buildMeUp = buildMeUp + mark; 
+//         }; 
+//         // Print buildMeUp to the console
+//         console.log(buildMeUp);
+//     }
+
+// }
+
+let addExcitement = (theWordArray, mark) => {
 
     // Each time the for loop executes, you're going to add one more word to this string
     let buildMeUp = ""
